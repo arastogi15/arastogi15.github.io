@@ -1,4 +1,6 @@
-#Description
-This is the code behind my personal website, which is very early in construction and can be accessed at ankkurrastogi.me
+# Woah! You caught us off guard.
 
-Thanks for stopping by!
+Hey there - thanks for stopping by! A **highly skilled team of magical armadillos** is busy building this website. Check back towards the end of June 2017.
+
+
+*P.S. Don't feed them. They're dangerous.*
