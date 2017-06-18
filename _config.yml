@@ -1,2 +1,4 @@
 name: ankur Rastogi, Blisfully Unaware
 	markdown: kramdown
+
+  permalink: /blog/:year/:month/:day/:title
