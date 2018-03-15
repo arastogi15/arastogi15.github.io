@@ -19,8 +19,9 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: green;
+    color: #1FA160;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Noto Serif', 'Arial', 'Sans-Serif';
