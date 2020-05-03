@@ -1,6 +1,3 @@
 # Welcome to my personal website!
 
-Thanks for stopping by! A **highly skilled team of armadillos** is busy building this website. Check back later in Fall 2018.
-
-
-*P.S. Don't feed them. They're dangerous.*
+Thanks for stopping by. You can check out the live version of (this website here.)[http://ankurrastogi.me/].
