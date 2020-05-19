@@ -1,6 +1,17 @@
+---
+---
+
+$bp-tablet: 768px;
+
 body {
-    margin: 60px auto;
-    width: 70%;    
+    margin: auto;
+    margin: 24px;
+
+    @media(min-width: $bp-tablet) {
+        margin: 60px auto;
+        width: 70%;        
+    }
+    
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,17 +51,29 @@ a#secret:hover {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     max-width: 800px;
     font-family:'Noto Serif', 'Arial', 'Sans-Serif';
+    margin: 32px 0;
+
+    @media(min-width: $bp-tablet) {
+        font-size: 3em;
+        margin: !important;
+    }
 }
 
 p {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    max-width: 90%;
     font-family: 'Open+Sans', sans-serif;
-    font-size: 1.25em;
-    line-height: 1.35em;
-    max-width:  620px;
     color: #333;
+
+    @media(min-width: $bp-tablet) {
+        font-size: 1.5em;
+        line-height: 1.35em;
+        max-width:  620px;
+    }    
 }
 
 p#about {
