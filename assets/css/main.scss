@@ -56,9 +56,25 @@ h1 {
     font-family:'Noto Serif', 'Arial', 'Sans-Serif';
     margin: 32px 0;
 
-    @media(min-width: $bp-tablet) {
+    &.header-mobile {
+        display: block;
+    }
+
+    &.header-desktop {
+        display: none;
+    }
+
+     @media(min-width: $bp-tablet) {
         font-size: 3em;
         margin: !important;
+
+        &.header-mobile {
+            display: none;
+        }
+
+        &.header-desktop {
+            display: block;
+        }
     }
 }
 
@@ -97,4 +113,10 @@ ul.posts li {
 .tester {
     font-family: 'Open+Sans';
     font-size: 1em;
+}
+
+.mobile-bkpt {
+    @media(min-width: $bp-tablet) {
+        display: none;
+    }
 }
